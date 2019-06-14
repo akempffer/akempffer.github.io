@@ -1,0 +1,6 @@
+$('nav').tabslet({
+  
+    mouseevent: 'hover'
+    
+    
+  });

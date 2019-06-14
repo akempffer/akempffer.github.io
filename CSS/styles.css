@@ -5,6 +5,18 @@
     *Outline Elements
 */
 
-*{
-    outline: 1px dotted black;
-}
+nav li {
+    list-style: none;
+    display: inline-block;
+    background: #C67EC6;
+    padding: .50em; 
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    padding: 10%;
+  }
