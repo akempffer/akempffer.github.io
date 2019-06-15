@@ -4,11 +4,7 @@ body {
   background-size: cover;
 }
 
-@media screen and (min-width: 480px) {
-p, h1, h2, h5, img {
-  width: 75%;
-}
-}
+
 
 nav{
   padding: 2em;
