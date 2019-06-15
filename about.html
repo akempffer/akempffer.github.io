@@ -8,17 +8,18 @@
     <title>About</title>
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ff0000">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.3.12/plyr.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display&display=swap">
 
 </head>
 <body class="about">
@@ -30,11 +31,22 @@
         <li><a href="contact.html">Contact</a></li>
     </nav>
 
-    <h1>About</h1>
+<container id="pageTwo">
+  <h1 class="moi">About Me</h1>
 
-<p>About Me</p>
-<p>Born and raised in the Pacific Northwest; I enjoy the change of the seasons, from the rough winters to the scorching summers. All four seasons truly shine here. I am a singer, pianist, artist, and designer.</p>
-
+<p class="info">Born and raised in the Pacific Northwest; I enjoy the change of the seasons, from the rough winters to the scorching summers. All four seasons truly shine here. I love plants and I am a singer, pianist, artist, and designer.</p>
+  
+  <div class="plantfographic">
+	<div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="https://vimeo.com/334496638"></div>
+    <h5>
+      Please enjoy my plantfographic, an infographic about house plants! Featuring the vocal talents of my friend: Mariah Arlint.</h5>
+</div>
+ 
+</container>
+ 
+<footer>
+  <p>&copy; Copyright 2019 - <span>0000</span> </p>  
+</footer>  
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -42,6 +54,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.21/js/jquery.chocolat.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tabslet.js/1.7.3/jquery.tabslet.min.js"></script>
+    <script src="https://cdn.plyr.io/3.3.12/plyr.js"></script>
 
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
