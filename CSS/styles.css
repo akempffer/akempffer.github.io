@@ -5,7 +5,18 @@
     *Outline Elements
 */
 
-nav li {
+body {
+    background:url('https://images-na.ssl-images-amazon.com/images/I/61emgHDmgwL._SY606_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav{
+    padding: 2em;
+    text-align: right;
+  }
+  
+  nav li {
     list-style: none;
     display: inline-block;
     background: #C67EC6;
@@ -20,3 +31,25 @@ nav li {
   nav ul {
     padding: 10%;
   }
+  
+  #pageOne {
+    display: flex;
+    background: #D9B2DE;
+    padding: 10em;
+    margin-top: -2em;
+    margin-right: 2em;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hello {
+    color: white;
+    font-size: 4em;
+  }
+  
+  .Iam {
+    color: white;
+    font-size: 3em;
+    margin-top: -20px;
+  }
+  
