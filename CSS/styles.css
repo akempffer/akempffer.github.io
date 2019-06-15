@@ -16,12 +16,6 @@ p, h1, h2, h5, img {
   }
   }
 
-  body {
-    background:url('https://images-na.ssl-images-amazon.com/images/I/61emgHDmgwL._SY606_.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
   nav{
     padding: 2em;
     text-align: right;
